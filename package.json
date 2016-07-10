@@ -1,0 +1,31 @@
+{
+  "name": "obfuscator-css",
+  "version": "1.0.0",
+  "description": "Obfuscate CSS classes.",
+  "main": "obfuscator.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/develas/obfuscate-CSS.git"
+  },
+  "keywords": [
+    "obfuscate",
+    "CSS"
+  ],
+  "author": "Gomoniuk Vadim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/develas/obfuscate-CSS/issues"
+  },
+  "homepage": "https://github.com/develas/obfuscate-CSS#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "rewire": "^2.5.2"
+  }
+}
